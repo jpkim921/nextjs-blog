@@ -10,6 +10,8 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -24,4 +26,15 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #eee;
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px 10%;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);  
 }
